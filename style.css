@@ -10,28 +10,49 @@ header {
     background-color: #333333
 }
 
+.container {
+    margin: 0 auto;
+}
+
 h1 {
     color: #eee;
     font-size: 28px;
-    padding: auto;
-    margin: auto;
+    padding: 15px;
+    margin: 15px;
+    text-align: center;
 }
 
 h2 {
     font-size: 24px;
-    margin: 0 auto;
+    padding: 10px;
+    margin: 10px;
 }
 
 #main-bio {
     float: left;
+    width: 70%;
 }
 
 #contact-info {
     float: left;
+    width: 30%;
+    line-height: 1.5;
 }
 
 #bio-image {
     float: left;
+    width: 200px;
+    height: 200px;
+    margin: 5px;
+}
+
+a {
+    color: #d21034
+}
+
+p {
+    margin: 5px;
+    padding-left: 215px;
 }
 
 /* Work on Image material on line 35 in 01-HTML-Git-CSS */
